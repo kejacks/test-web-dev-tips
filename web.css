@@ -1,0 +1,15 @@
+/* Intended to use as a practice run through on applying CSS. Will go to 120 characters per line. */
+/* Starting with the NAV menu for simplicity's sake. */
+
+ul.headers {
+    font-size: 1.6em;
+    color: #000000;
+    background-color: #EBE3B1;
+    border: 0 0 0 0;
+}
+
+body {
+    /* background-color: #F8AC72; */
+    background-color: #545454;
+    color: #FFFFFF;
+}
