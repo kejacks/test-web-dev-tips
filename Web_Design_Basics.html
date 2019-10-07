@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Web Design Basics</title>
+    <link rel="stylesheet" type="text/css" href="web.css" media="all">
+</head>
+<body>
+    <header>
+    <nav>
+        <ul class="headers">
+            <li class="master-topic">HTML</li>
+                <div class="sub-topic">
+                    <ul>
+                        <li><a href="HTML_tags.html">HTML Tags</a></li>
+                    </ul>
+                </div>
+            <li class="master-topic">CSS</li>
+                <div class="sub-topic">
+                    <ul>
+                        <li><a href="CSS_overview.html">CSS Overview</a></li>
+                        <li><a href="CSS_properties.html">CSS Properties</a></li>
+                        <li><a href="CSS_tags.html">CSS Tags</a></li>
+                    </ul>
+                </div>
+            <li class="master-topic">JavaScript</li>
+                <div class="sub-topic">
+                    <ul>
+
+                    </ul>
+                </div>
+            <li class="master-topic">General Web Design</li>
+                <div class="sub-topic">
+                    <ul>
+                        <li><a href="Web_Design_Basics.html">Web Design Basics</a></li>
+                        <li><a href="Responsive_Design.html">Responsive Design</a></li>
+                    </ul>
+                </div>
+        </ul>
+    </nav>
+    </header>
+    <h1>Web Design Basics</h1>
+    <div>
+        <h2>Goal</h2>
+        <p>The goal of this page will be to explain the basics involved in putting together a website. This will include, 
+            but not be limited to:
+            <ul>
+                <li>Tags to always include</li>
+                <li>What to include within those tags</li>
+                <li>Uh, more to come maybe?</li>
+            </ul>
+            This will likely not be all-inclusive and I probably should try to update this from time-to-time.
+        </p>
+        <h2>Basic tags to include when starting</h2>
+        <div>
+        <h3>DOCTYPE tag</h3>
+        <p>This tag will tell the browser which version of HTML your page is using. For any of my own future concerns,
+            that version will be HTML5. In order to use HTML5, the tag will look like:
+        </p>
+        <p><code>&lt;!DOCTYPE html&gt;</code></p>
+        <p>At this point, using HTML5 is going to be better in the vast majority of cases. To see some of the 
+            differences between HTML, HTML5, and XHTML, I would recommend going back and checking <a 
+            href="https://hackr.io/blog/difference-between-html-html5-xhtml" target="_blank">this site</a>. Given my 
+            own goals, HTML5's use on mobile devices makes it the best choice by a country mile.
+        </p>
+        <p>It's important to note that the DOCTYPE tag is self-closing.</p>
+        <h3>html tag</h3>
+        <p>Aside from any comments typed into the page, the html tag will come immediately after the DOCTYPE tag and 
+            the last tag of the site will be the matching closing tag.
+        </p>
+        <h3>head tag</h3>
+        <p>The head teag will come after the html tag and it will include meta-data for the site as well as the 
+            title that appears in the top bar of the browser. It will get a closing tag that comes just before the 
+            opening tag for the body.
+        </p>
+        <h3>title tag</h3>
+        <p>The title tag will come within the head tags. Inside the opening and closing tags will simply be the title 
+            of the site that appears in the toolbar of the browser.
+        </p>
+        <h3>body tag</h3>
+        <p>Once the head tag has been closed, the body tag can be opened to include all the information on a site that 
+            users will be coming to see. There will likely be most of the page <em>content</em> included within this 
+            tag, even if the code of the page <em>code</em> comes before it's opened. This could be due to including 
+            CSS or JavaScript in-line as well as various bits of meta-data.
+        </p>
+        </div>
+    </div>
+</body>
+</html>
